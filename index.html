@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Planned Tech</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+        />
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>PlannedTech</h1>
+                <p>
+                    Making website is now one of the easiest thing in the world.
+                    You just need to learn HTML, CSS,<br />Javascript and you
+                    are good to go.
+                </p>
+                <a href="" class="hero-btn">Tudj meg többet</a>
+            </div>
+        </section>
+
+        <section class="products">
+            <h1>Ajánlataink</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos culpa rem dolore sunt, asperiores tempore! Sequi
+                fugiat deserunt natus unde autem laudantium veniam, hic,
+                mollitia eveniet quibusdam ipsam temporibus sunt!
+            </p>
+
+            <div class="row">
+                <div class="products-col">
+                    <h3>Lorem</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Exercitationem commodi ab placeat nisi
+                        accusantium, ipsum in! Reiciendis eaque odio
+                        perspiciatis similique amet assumenda quasi, nisi
+                        accusamus, vitae, aliquid dolore. Nesciunt?
+                    </p>
+                </div>
+                <div class="products-col">
+                    <h3>Ipsum</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Saepe quia sunt delectus facere velit. Sit
+                        veritatis voluptate illum? Minima ut eligendi
+                        repellendus nam nostrum. Reprehenderit, itaque.
+                        Similique velit tempore commodi!
+                    </p>
+                </div>
+                <div class="products-col">
+                    <h3>Dolor</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Saepe quia sunt delectus facere velit. Sit
+                        veritatis voluptate illum? Minima ut eligendi
+                        repellendus nam nostrum. Reprehenderit, itaque.
+                        Similique velit tempore commodi!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="aboutUs">
+            <h1>Rólunk</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                molestias ad praesentium tempora saepe hic, et vel placeat unde
+                fuga sunt itaque, laborum deleniti reiciendis suscipit neque
+                soluta? Suscipit, rerum.
+            </p>
+
+            <div class="row">
+                <div class="aboutUs-col">
+                    <div class="layer"></div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            var navLinks = document.getElementById("nav-links");
+
+            function showMenu() {
+                navLinks.style, (right = "0");
+            }
+
+            function hideMenu() {
+                navLinks.style, (right = "-200");
+            }
+        </script>
+    </body>
+</html>
